@@ -1,0 +1,188 @@
+.addProduct {
+  display: grid;
+  grid-template-columns: 100px 3fr;
+}
+
+.add__product_main_btn {
+  color: rgb(33, 33, 33);
+  border: none;
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 72%;
+  border-radius: 5px;
+  padding: 14px 16px;
+  background: rgb(240, 240, 246);
+}
+
+.add_product_input_name {
+  width: 760px;
+  height: 45px;
+  border-radius: 6px;
+  background: rgb(246, 246, 251);
+  border: none;
+  margin-bottom: 30px;
+}
+
+.add__product_input_name_title {
+  display: block;
+  font-family: Mulish;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 72%;
+  letter-spacing: 0%;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.add__product_brand_name_brand_title {
+  display: block;
+  font-family: Mulish;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 72%;
+  letter-spacing: 0%;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.add_product_input_brand {
+  width: 360px;
+  height: 45px;
+  border-radius: 6px;
+  background: rgb(246, 246, 251);
+  border: none;
+  margin-bottom: 30px;
+}
+
+.add__product_brand_name_code_title {
+  display: block;
+  font-family: Mulish;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 72%;
+  letter-spacing: 0%;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+.add_product_input_code {
+  width: 360px;
+  height: 45px;
+  border-radius: 6px;
+  background: rgb(246, 246, 251);
+  border: none;
+  margin-bottom: 30px;
+}
+
+.add__product_brand_code_input {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.add__product_input_commit_title {
+  display: block;
+  font-family: Mulish;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 72%;
+  letter-spacing: 0%;
+  margin-bottom: 12px;
+}
+
+.add__product_input_commit {
+  width: 765px;
+  height: 110px;
+  border: none;
+  border-radius: 6px;
+  background: rgb(246, 246, 251);
+}
+
+.add__product_input_price_title {
+  display: block;
+  font-family: Mulish;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 72%;
+  letter-spacing: 0%;
+  margin-bottom: 12px;
+}
+
+.add__product_input_price {
+  width: 230px;
+  height: 45px;
+  border-radius: 6px;
+  border: none;
+  background: rgb(246, 246, 251);
+}
+
+.add__product_input_discount_title {
+  display: block;
+  font-family: Mulish;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 72%;
+  letter-spacing: 0%;
+  margin-bottom: 12px;
+}
+
+.add__product_input_discount {
+  width: 230px;
+  height: 45px;
+  border-radius: 6px;
+  border: none;
+  background: rgb(246, 246, 251);
+}
+
+.add__products_inputs_price {
+  margin-top: 57px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.add__product_main {
+  width: 1180px;
+  margin-left: 40px;
+}
+
+.add__product_footer {
+  box-shadow: 0px 5px 40px 0px rgba(33, 33, 33, 0.05);
+  background: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.add__product_footer_buttons {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 455px;
+}
+
+.add__product_footer_save_btn {
+  color: rgb(255, 255, 255);
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 72%;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 6px;
+  background: rgb(27, 197, 141);
+  padding: 15px 20px;
+  border: none;
+}
+
+.add__product_footer_cancel_btn {
+  color: rgb(128, 128, 155);
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 72%;
+  letter-spacing: 0%;
+  border-radius: 6px;
+  background: rgb(247, 247, 255);
+  padding: 15px 20px;
+  border: none;
+}
