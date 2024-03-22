@@ -17,7 +17,7 @@ const HomeMain = () => {
       .get("http://localhost:3000/products")
       .then((response) => {
         setData(response.data);
-        setLoading(false); // Ma'lumotlar yuklandi
+        setLoading(false);
       })
       .catch((error) => console.log(error));
   }, []);
@@ -59,7 +59,7 @@ const HomeMain = () => {
             </div>
           </div>
           <div className="w-100 rounded bg-white border shadow p-4 tables">
-            {loading ? ( // Agar ma'lumotlar yuklanmoqda bo'lsa
+            {loading ? (
               <div className="spinner">
                 <ClipLoader color={"#000"} loading={loading} size={50} />
               </div>
